@@ -1,0 +1,139 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    /* remove margens externas */
+    padding: 0;
+    /* remove preenchimento externo */
+}
+
+/* estilo para o corpo da página */
+body {
+    color: #ffffff;
+    /* define a cor do texto do corpo da página */
+    font-family: 'Press Start 2P', cursive;;
+    /* define a fonte utilizada */
+    background-image: url(fundo.jpg);
+    /* define a imagem de fundo do corpo da página */
+    background-position: center;
+}
+
+/* estilo para o contêiner principal */
+#container {
+    width: 80%;
+    /* define a largura do contêiner */
+    margin: 50px auto;
+    /* centraliza o contêiner horizontalmente */
+    text-align: center;
+    /* alinha o conteúdo ao centro */
+}
+
+/* estilo para o cabeçalho */
+h1 {
+    color: #ffffff;
+    /* define a cor do texto do cabeçalho */
+    font-family: 'Press Start 2P', cursive;
+    /* define a fonte utilizada */
+    
+}
+
+/* estilo para a entrada de texto */
+input[type="text"] {
+    padding: 8px;
+    /* define o preenchimento interno */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* define a fonte utilizada */
+    font-size: 16px;
+    /* define o tamanho da fonte */
+    border-radius: 5px;
+    /* define o raio das bordas */
+}
+
+/* estilo para o checkbox */
+.opcoes {
+  display: flex;
+  /* define layout flexível*/
+  justify-content: center;
+  /* cenntraliza no eixo horizontal*/
+  gap: 40px; 
+  /* espaço entre os cristais */
+  margin-top: 20px;
+  /* define a margem superior */
+}
+
+
+/* estilo para os cristais */
+.opcao {
+  display: flex;
+/* define layout flexível*/
+  flex-direction: column;
+  /*organiza em coluna*/
+  align-items: center;
+  /*centraliza os itens*/
+  color: white; 
+  /* define a cor do texto do checkbox*/
+  font-family: 'Press Start 2P', monospace;
+  /* define a fonte utilizada */
+}
+
+/* estilo para os cristais*/
+.opcao img {
+  width: 80px; 
+  /* define a largura dos critais */
+  margin-bottom: 8px;
+  /* define a margem superior */
+}
+
+/* estilo para seleção e botão */
+select,
+button {
+    padding: 8px;
+    /* define o preenchimento interno */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* define a fonte utilizada */
+    font-size: 15px;
+    /* define o tamanho da fonte */
+    border-radius: 5px;
+    /* define o raio das bordas */
+    cursor: pointer;
+    /* altera o cursor ao passar por cima */
+}
+
+/* estilo para o botão */
+button {
+    background-color: #959595;
+    /* define a cor de fundo do botão */
+    color: #4f4f4f;
+    /* define a cor do texto do botão */
+    border: 4px solid #f5f5f5;
+    /* define a borda do botão */
+    padding: 10px 20px;
+    /* remove preenchimento externo */
+    image-rendering: pixelated;
+    box-shadow: 4px 4px #cdcdcd;
+}
+
+/* estilo para o botão ao passar o mouse por cima */
+button:hover {
+    background-color: #d64f4f;
+    /* altera a cor de fundo ao passar o mouse */
+    box-shadow: 3px 3px #cdcdcd;
+}
+
+/* estilo para a saída de resultados */
+#output {
+    margin-top: 20px;
+    /* define a margem superior */
+    padding: 10px;
+    /* define o preenchimento interno */
+    border-radius: 5px;
+    /* define o raio das bordas */
+    background-color: #D0D3D4;
+    /* define a cor de fundo */
+    border: 1px solid #63666A;
+    /* define a borda */
+    text-align: left;
+    /* alinha o texto à esquerda */
+    display: none;
+    /* inicialmente oculta a saída */
+}
+
